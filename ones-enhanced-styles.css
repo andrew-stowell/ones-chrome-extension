@@ -1,7 +1,3 @@
-.task-detail-kanban-card {
-  padding-bottom: 50px;
-}
-
 /** ticket number */
 .task-detail-kanban-card .ui-tag-key-field[data-field-uuid="field015"] {
   position: absolute;
