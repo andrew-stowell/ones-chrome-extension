@@ -1,0 +1,30 @@
+.task-detail-kanban-card {
+  padding-bottom: 50px;
+}
+
+/** ticket number */
+.task-detail-kanban-card .ui-tag-key-field[data-field-uuid="field015"] {
+  position: absolute;
+  left: 40px;
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+/** assignee name */
+.task-detail-kanban-card .ui-tag-key-field[data-field-uuid="field004"] {
+  display: none;
+}
+
+.task-detail-kanban-card .card-avatar {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.task-detail-kanban-card {
+  padding-bottom: 40px !important;
+}
