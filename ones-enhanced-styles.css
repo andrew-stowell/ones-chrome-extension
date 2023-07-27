@@ -24,3 +24,17 @@
 .task-detail-kanban-card {
   padding-bottom: 40px !important;
 }
+
+.ui-tag-key-field:has(span) {
+  display: none;
+}
+
+.ui-tag-key-field-empty {
+  display: none;
+}
+
+.ui-task-detail--wide .ui-task-detail__side {
+    min-width: 240px !important;
+    max-width: 460px !important;
+    flex: 0 0 45% !important;
+}
